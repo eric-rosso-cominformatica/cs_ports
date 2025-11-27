@@ -4,8 +4,8 @@ CATEGORIES=	sysutils
 PKGNAMEPREFIX=	${GH_ACCOUNT}-
 
 MAINTAINER=	franco@opnsense.org
-COMMENT=	OPNsense update utilities
-WWW=		https://github.com/opnsense/update
+COMMENT=	.Com Security update utilities
+WWW=		https://github.com/comsecurity/update
 
 LICENSE=	BSD2CLAUSE
 

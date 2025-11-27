@@ -1,0 +1,18 @@
+@postunexec mv %%PREFIX%%/sbin/comsecurity-bootstrap.bak %%PREFIX%%/sbin/comsecurity-bootstrap
+@preunexec cp %%PREFIX%%/sbin/comsecurity-bootstrap %%PREFIX%%/sbin/comsecurity-bootstrap.bak
+share/man/man8/comsecurity-bootstrap.8.gz
+share/man/man8/comsecurity-code.8.gz
+share/man/man8/comsecurity-fetch.8.gz
+share/man/man8/comsecurity-patch.8.gz
+share/man/man8/comsecurity-revert.8.gz
+share/man/man8/comsecurity-sign.8.gz
+share/man/man8/comsecurity-update.8.gz
+share/man/man8/comsecurity-verify.8.gz
+sbin/comsecurity-bootstrap
+sbin/comsecurity-code
+sbin/comsecurity-fetch
+sbin/comsecurity-patch
+sbin/comsecurity-revert
+sbin/comsecurity-sign
+sbin/comsecurity-update
+sbin/comsecurity-verify
